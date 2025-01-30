@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+       <style>
+        body {
+            background-color: #1a1a2e;
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: 'Arial', sans-serif;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            font-size: 24px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            background: rgba(0, 0, 0, 0.6);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            padding: 15px;
+        }
+        nav ul li a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section {
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.5);
+            margin: 20px;
+            border-radius: 10px;
+        }
+        footer {
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        .anime-image {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            margin: 20px auto;
+            display: block;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+        }
+        .contact-form button {
+            background-color: #ffcc00;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="https://m.media-amazon.com/images/I/61Jw4SXV1qL._AC_UF894,1000_QL80_.jpg" alt="Male Anime Character" class="anime-image">
+        <p>Hello! Myself C. Thejesh. I am currently pursuing BTech in SASTRA University (2nd year). I have learned DSA, web development, and did some projects.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1oaqvM.img?w=768&h=384&m=6&x=388&y=54&s=549&d=239" alt="Anime Project Theme" class="anime-image">
+        <p>Projects I have worked on:</p>
+        <ol>
+            <li>Portfolio</li>
+            <li>Quiz Website using HTML, CSS</li>
+        </ol>
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/07/anime-characters-who-carry-their-shows.jpg" alt="Anime Blog Theme" class="anime-image">
+        <p>Optional section for thoughts on anime, tech, or personal journey.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2025 My Anime Portfolio</p>
+    </footer>
+</body>
+</html>
